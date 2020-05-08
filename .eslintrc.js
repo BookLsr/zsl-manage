@@ -17,10 +17,12 @@ module.exports = {
   ],
   // required to lint *.vue files
   plugins: [
-    'vue'
+    'vue',
+    'html'
   ],
   // add your custom rules here
   rules: {
+    "space-before-function-paren": ["error", "never"],
     // allow async-await
     'generator-star-spacing': 'off',
     // allow debugger during development
